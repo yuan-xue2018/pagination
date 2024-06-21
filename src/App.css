@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 80%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.page-link {
+  color: #0d7bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.active-page {
+  background-color: red;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
